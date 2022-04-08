@@ -15,6 +15,30 @@
 
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="./index.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+
+        // const root = document.querySelector("#root");
+
+        // const t1 = React.createElement('h1', {id: 'main title'}, 'Hello World');
+        // const t2 = React.createElement('h3', {id: 'subtitle'}, 'My first steps in react js');
+
+        // const t3 = React.createElement('div', {id: 'container'}, t1, t2);
+
+        const page = () =>{
+            return <div>
+            <h1 id='mainTitle'>Hello World from babel</h1>
+            <h3 id='subtitle'>this text was created inside of the function page!</h3>
+            </div>
+        }
+
+        ReactDOM.render(page(), root);
+
+        // ReactDOM.render(<div>
+        //     <h1 id='mainTitle'>Hello World from babel</h1>
+        //     <h2 id='subtitle'>My first steps trying to figure out babel</h2>
+        //     </div>, root); 
+    </script>
 </body>
 </html>
