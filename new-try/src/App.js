@@ -9,8 +9,8 @@ function App() {
       <div>
         <Header name='Davi'
         links={['about', 'buy', 'contact', 'login']}></Header>
-        {/* <Counter count={7}></Counter> */}
-        <Counter></Counter>
+        <Counter count={7}></Counter>
+        {/* <Counter count={3}></Counter> */}
 
       </div>
       );
