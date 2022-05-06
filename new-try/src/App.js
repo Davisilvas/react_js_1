@@ -7,10 +7,8 @@ import './App.css';
 function App() {
   return (
       <div>
-        <Header name='Davi'
-        links={['about', 'buy', 'contact', 'login']}></Header>
-        <Counter count={7}></Counter>
-        {/* <Counter count={3}></Counter> */}
+        {/* <Counter count={7}></Counter> */}
+        <Counter counter={3}></Counter>
 
       </div>
       );
